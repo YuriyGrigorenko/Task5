@@ -1,0 +1,156 @@
+body {
+    font-family: Raleway;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 850px;
+    background-color: #3498db;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-bottom: 230px;
+}
+
+.hidden-text {
+    position: absolute;
+    top: -200000px;
+}
+
+.img-logo {
+    width: 150px;
+    height: 35px;
+    margin: 55px;
+}
+
+.img-menu {
+    width: 36px;
+    height: 25px;
+    margin: 70px;
+}
+
+.menu-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #3498db;
+}
+
+.title {
+    margin-bottom: 47px;
+    color: #ecf0f1;
+    font-size: 86px;
+    font-weight: bold;
+}
+
+.subtittle {
+    color: #ecf0f1;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.section-window {
+    position: absolute;
+    width: 1141px;
+    height: 580px;
+    margin: 700px;
+    padding-top: 75px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.9px 0 1px rgba(155, 155, 155, 0.3);
+    background-color: #fff;
+}
+
+.window-subtittle {
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.picture-cross {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto 35px;
+    cursor: pointer;
+}
+
+.img-cross {
+    width: 100%;
+}
+
+.window-text {
+    width: 771px;
+    height: 155px;
+    margin: 0 auto 64px;
+    font-size: 20px;
+    line-height: 1.75;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.window-btn {
+    width: 277px;
+    height: 75px;
+    display: block;
+    margin: 0 auto 79px;
+    border-radius: 37.5px;
+    background-color: #3498db;
+    cursor: pointer;
+}
+
+.btn {
+    width: 114px;
+    height: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 950px;
+    margin-top: 266px;
+    background-color: #edf0f1
+}
+
+.round-objects-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.union-items {
+    margin:  471px 0 39px 0;
+    padding: 0 53px 0 53px;
+}
+
+.round-object {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.section-items-subtittle {
+    width: 224.5px;
+    height: 51px;
+    margin-top: 39px;
+    font-weight: bold;
+    line-height: 1.75;
+    text-align: center;
+    text-transform: uppercase;
+}
