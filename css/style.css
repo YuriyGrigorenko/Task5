@@ -118,7 +118,7 @@ body {
     justify-content: center;
     padding-top: 471px;
     padding-bottom: 122px;
-    background-color: #edf0f1
+    background-color: #edf0f1;
 }
 
 .round-objects-container {
@@ -158,13 +158,13 @@ body {
     background-color: #27ae60;
 }
 
-.projects-subtittle {
+.projects-section-title {
     margin-bottom: 41px;
     font-size: 40px;
     color: #fff;
 }
 
-.projects-text {
+.projects-section-description {
     width: 750px;
     margin: 0 auto 75px;
     font-size: 20px;
@@ -174,21 +174,21 @@ body {
     color: #fff;   
 }
 
-.img-browser-container {
+.slider-container {
     display: flex;
 }
 
-.img-browser-left {
+.prev-slide-container-left {
     width: 676px;
     height: 484px;
     margin: 49px 154px 50px 0;
 }
 
-.img-left {
+.prev-slide-img-left {
     width: 100%;
 }
 
-.img-arrow-left {
+.prev-slide-button-left {
     position: absolute;
     width: 47px;
     height: 88px;
@@ -196,23 +196,24 @@ body {
     margin-right: 0;
     margin-bottom: 186px;
     margin-left: 190px;
+    cursor: pointer;
 }
 
-.arrow-left {
+.prev-slide-button-img-left {
     width: 100%;
 }
 
-.img-browser-right {
+.prev-slide-container-right {
     width: 676px;
     height: 484px;
     margin: 49px 0 50px 0px;
 }
 
-.img-right {
+.prev-slide-img-right {
     width: 100%;
 }
 
-.img-arrow-right {
+.prev-slide-button-right {
     position: absolute;
     width: 47px;
     height: 88px;
@@ -220,19 +221,159 @@ body {
     margin-right: 187px;
     margin-bottom: 186px;
     margin-left: 1300px;
+    cursor: pointer;
 }
 
-.arrow-right {
+.prev-slide-button-img-right {
     width: 100%;
 }
 
-.img-browser-center {
+.prev-slide-container-center {
     position: absolute;
     width: 814px;
     height: 583px;
     margin-top: 221px;
 }
 
-.img-center {
+.prev-slide-img-center {
+    width: 100%;
+}
+
+.clients-section {
+    height: 600px; 
+    padding: 98px;
+    background-color: #edf0f1;  
+}
+
+.windows-slider-container {
+    display: flex;
+    justify-content: center;
+}
+
+.clients-section-description {
+    width: 1096px;
+    margin: 0 auto 110px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.window-slider-container-left {
+    width: 555px;
+    height: 537px;
+    margin-right: 31px;
+    padding: 77px 55px 70px 55px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.9px 0 1px rgba(155, 155, 155, 0.3);
+    background-color: #fff;
+}
+
+.window-subtittle-left {
+    height: 30px;
+    margin: 0 auto 32px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.prev-slide-cross {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto 35px;
+    cursor: pointer;
+}
+
+.prev-slide-cross-img {
+    width: 100%;
+}
+
+.window-slider-description {
+    width: 443px;
+    margin: 0 auto 43px;
+    font-size: 20px;
+    line-height: 1.75;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.window-slider-btn {
+    display: block;
+    margin: 0 auto;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 37.5px;
+    font-size: 20px;
+    background-color: #3498db;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.window-slider-container-right {
+    width: 545px;
+    height: 537px;
+    padding: 77px 55px 70px 55px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.9px 0 1px rgba(155, 155, 155, 0.3);
+    background-color: #fff;
+}
+
+.window-subtittle-right {
+    height: 30px;
+    margin: 0 auto 32px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.section-partners {
+    height: 731px;
+    padding: 447px 481px 114px 482px;
+    background-color: #9b59b6;
+}
+
+.partners-section-title {
+    width: 260px;
+    margin: 0 auto 98px;
+    font-size: 40px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.slider-partners-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.prev-slide-container-msft {
+    width: 192px;
+    height: 41px;
+}
+
+.prev-slide-container-samsung {
+    width: 185px;
+    height: 28px;
+}
+
+.prev-slide-container-ibm {
+    width: 140px;
+    height: 52px;
+}
+
+.prev-slide-container-google {
+    width: 170px;
+    height: 56px;
+}
+
+.prev-slide-logo-partners {
     width: 100%;
 }
